@@ -1,0 +1,135 @@
+/*
+ Theme Name:   Realty Child Theme
+ Theme URI:    http://demo.themetrail.com/realty/
+ Description:  Realty Child Theme
+ Author:       ThemeTrail
+ Author URI:   http://themetrail.com
+ Template:     realty
+ Version:      1.0
+ Text Domain:  tt
+*/
+
+@import url("../realty/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/*Welcome Page
+---------------*/
+@media (min-width: 768px){
+#intro-wrapper .intro-left-bg {
+background-color:rgba(255, 255, 255, 1);
+opacity:.4;
+}
+}
+#intro-wrapper .intro-left {
+	margin-top:-15px;
+}
+
+.intro-search {
+list-style-type: none
+}
+@media (max-width: 768px){
+#intro-wrapper .intro-search, #intro-wrapper .intro-map {
+	background-color:rgba(255, 255, 255, 0.75);
+}
+}
+@media (min-width: 768px){
+	#intro-wrapper .intro-right .intro-title {
+		padding:none;
+}
+}
+
+@media (min-width: 768px){
+	#intro-wrapper .intro-right .intro-title .title {
+		text-align:center;
+}
+}
+
+#intro-wrapper .intro-right .intro-title {
+  margin: 0;
+  padding: 20px 30px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(76, 79, 73, 0.95);
+}
+
+#intro-wrapper .intro-right {
+  padding-bottom: 5px;  
+}
+
+@media (min-width: 768px) {
+  #intro-wrapper .intro-right {
+	margin-left: 50px;
+	background-color:rgba(255, 255, 255, 0.75);	
+} 
+
+#intro-wrapper .intro-right label {
+	color:#666;	
+}	
+}
+
+#intro-wrapper .intro-right {
+    padding: 0px;
+	background-color:rgba(255, 255, 255, 0.75);	
+}
+
+#intro-wrapper .property-search-form {
+  background-color: #ffffff;
+}
+
+#intro-wrapper .intro-right .intro-title {
+	margin-bottom:15px;
+}
+
+#intro-wrapper .intro-right form {
+  font-size: 0.9em;
+  padding: 0px 20px 0px 20px;
+}
+.dsidx-search-widget label {
+	padding:4px;
+}
+
+ul#sidebar a, #footer a:hover {
+	cursor:pointer;
+}
+
+.dsidx-search-widget .dsidx-search-button .submit {
+	font-size:14px;
+-webkit-font-smoothing: antialiased;
+}
+
+input, input:focus, .form-control, .form-control:focus, .chosen-container.chosen-container-single .chosen-single, select {
+	line-height:inherit;
+}
+
+.welcome,
+.btn,
+.btn:focus,
+input[type="submit"],
+input.dsidx-contact-form-submit {
+  outline: none;
+  padding: 10px 15px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1;
+  border: none;
+  border-radius: 0;
+  background-color: #70B9A1;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+/*Home Page Slider
+-------------------*/
+
+.home-slider {
+	list-style-type: none;
+}
+
+.home-slider div.dsidx-results-widget .dsidx-slideshow-control {
+	background:none;
+}
